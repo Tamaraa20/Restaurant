@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#naslovna {
+    background: url(../slike/baner1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-height: 90vh;
+    max-width: 100%;
+  min-width: 100px;
+
+}
+
+#naslovna h1 {
+
+    margin-right: 25%;
+    color: white;
+    font-size: 80px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.724);
+    margin-top: 18%;
+    margin-bottom: 18%;
+}
+
+.section-background {
+    background: url(../slike/Rectangle30.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#opis img {
+    max-width: 90%;
+    max-height: 70vh;
+}
+
+#opis .txt {
+    font-size: 22px;
+}

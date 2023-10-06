@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.video-container h1 {
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.video-container {
+  position: relative;
+  max-width: 100%;
+
+}
+
+video {
+  width: 100%;
+  max-height: 90vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.meniHeader {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline 1.5px;
+  padding-bottom: 30px;
+}
+
+.Jelovnik {
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: center;
+  width: 100%;
+}
+
+.NazivJela {
+  font-style: bold;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.container {
+  width: 80%;
+}
+
+.linewrapper {
+  display: flex;
+  align-items: baseline;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+.middle {
+  border-bottom: 2px dotted #000000;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.opis {
+  color: #000000;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+.btn:hover {
+  background-color: #198754;
+  color: white;
+}
+
+footer {
+  background: rgb(228, 228, 228);
+}

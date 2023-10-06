@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navigacionibar .btn {
+  color: white;
+  background-color: #198754;
+}
+
+#navigacionibar .btn:hover {
+  background-color: rgb(25, 95, 62);
+}
+
+#navigacionibar img {
+  height: 6vh;
+  width: 6vh;
+}
+
+#onama img {
+  height: 50vh;
+  width: 70vh;
+}
+
+#onama p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#onama .btn {
+  font-size: 25px;
+  height: 70px;
+  width: 100%;
+}
+
+.section-background {
+  background-image: url(slike/Rectangle30.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#meni img {
+  width: 90%;
+  height: 300px;
+}
+
+#meni .btn {
+  width: 318px;
+  height: 83px;
+  font-size: 25px;
+}
+
+#rezervacija .t {
+  display: flex;
+  width: 460px;
+  height: 391px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+#rezervacija p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 10px;
+}
+
+#rezervacija .btn {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  width: 243px;
+  height: 72px;
+}
+
+#galerija {
+  background: url(slike/Rectangle.jpg);
+  max-width: 100%;
+  max-height: 115vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-inner img {
+  max-width: 800px;
+  max-height: 80vh;
+}
+
+.carousel {
+  max-width: 800px;
+  max-height: 80vh;
+}
+
+#galerija .btn {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 318px;
+  max-height: 83px;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  font-size: 40px;
+}
+
+.rights {
+  background: rgba(92, 92, 92, 0.21);
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background: rgb(228, 228, 228);
+}
+
+
+#pocetna {
+  background: url(slike/pocetna1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100vh;
+  min-width: 100px;
+  background-position: center;
+  padding: 150px;
+}
+
+
+#pocetna h1 {
+  margin-top: 5%;
+  margin-bottom: 18%;
+  color: white;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#pocetna p {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 45%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}
+

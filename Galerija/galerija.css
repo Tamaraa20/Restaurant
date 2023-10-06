@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#naslovna {
+  background: url(../slike/baner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100vh;
+  min-width: 100px;
+  background-position: center;
+  padding: 50px;
+}
+
+#naslovna h1 {
+  margin-top: 18%;
+  margin-bottom: 18%;
+  color: white;
+  font-size: 70px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#kontakt .txt {
+  font-size: 25px;
+}
+
+#kontakt .col-sm {
+  background: #e8e8e8;
+  box-shadow: 6px 4px 11px 0px rgba(0, 0, 0, 0.25);
+  width: 375px;
+  height: 442px;
+}
+
+#kontakt p {
+  font-size: 20px;
+}
+
+.portfolio-menu {
+  text-align: center;
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.portfolio-item .item {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.responsive-video {
+  width: 100%;
+  max-height: 90vh;
+  object-fit: cover;
+  object-position: center;
+  min-height: 85vh;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#navbarNav .nav-item .nav-link {
+  position: relative;
+  margin-top: 10px;
+  left: 1020px;
+  margin-bottom: 10px;
+}
+
+#navbarNav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #006a4e;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.logo {
+  height: 60px;
+  margin-left: -9px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: #faf5ef;
+}
+
+.overlay-text h1 {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+}
+
+.overlay-description {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+.btn:hover {
+  background: #198754;
+  color: #faf5ef;
+}
+
+.hr-container {
+  background-color: #006a4e;
+  padding: 1px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid white;
+  margin: 30px;
+}
+
+.rights {
+  background: rgba(0, 0, 0, 0.326);
+}
+
+footer {
+  background: rgba(150, 150, 150, 0.788);
+}
